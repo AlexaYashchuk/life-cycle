@@ -13,7 +13,7 @@ function LifecycleFunctionComponent() {
         });
 
     const counter = () => {
-        setCount(() => count +1)        
+        setCount((count) => count +1)        
     }
     const displayCount = (count % 2 === 0 ? count : count - 1); 
 

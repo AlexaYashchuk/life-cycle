@@ -6,7 +6,8 @@ function ParentFunctionComponent() {
     const [show,setShow] = useState(true)
 
     const showFuncComp = () => {
-        setShow((show) => show = !show)
+        // setShow((show) => show = !show)
+        setShow(!show)
     }
 
 
